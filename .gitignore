@@ -3,3 +3,7 @@
 **/obj/
 __pycache__/
 *.class
+
+.DS_Store
+__pycache__/
+Python/build/
