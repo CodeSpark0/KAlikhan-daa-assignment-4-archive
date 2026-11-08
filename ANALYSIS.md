@@ -1,4 +1,3 @@
-```markdown
 # Assignment 4 — analysis (complete in English)
 
 ## Environment and commands

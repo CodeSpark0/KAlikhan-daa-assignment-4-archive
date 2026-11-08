@@ -1,6 +1,8 @@
-# Student Test Suite
+# Your own tests
 
-`tests/student/own_tests.jsonl` contains 18 custom JSONL requests covering empty inputs, subsequence vs. substring behaviour, adjacent-only block merging vs. greedy non-adjacent traps, deep chain and 64-bit weight trees, punctuation/overlap consistency across `naive`/`kmp`/`rk`, base-31 mod-101 collisions (`ab`/`dj` and `bc`/`ek`), distinct/overlapping suffix arrays, and Aho–Corasick suffix links, duplicates, and state resets. Run with:
+This directory contains `own_tests.jsonl` with 18 custom request fixtures testing boundary conditions, witnesses, hash collisions, and state resets across all eight commands (`lcs`, `merge`, `tree`, `naive`, `kmp`, `rk`, `suffix`, `aho`).
+
+## Run Command
 
 ```sh
 python3 tools/run.py --input tests/student/own_tests.jsonl

@@ -6,6 +6,22 @@
 
 Implement six parts with eight commands: LCS; ordered adjacent-block merging; maximum-weight independent set on a tree; naive, KMP and exact Rabin–Karp search; suffix array with Kasai LCP; Aho–Corasick. The work covers syllabus weeks 8–10. This is a starter template: the algorithm methods are TODOs. Read the specification before coding.
 
+## Student Implementation Summary
+
+- **Selected Language:** Python (`submission.json` set to `"Python"`)
+- **Source File:** `Python/source/algorithms.py`
+- **Student Test Suite:** `tests/student/Alikhan_tests.jsonl`
+- **Analysis Report:** [ANALYSIS.md](ANALYSIS.md)
+
+### Build, Run, and Test Commands
+
+Run from the repository root:
+
+```sh
+python3 tools/run.py --setup
+python3 tools/run.py --check
+python3 tools/run.py --input tests/student/own_tests.jsonl
+python3 tools/run.py --input examples/lcs.jsonl
 ## Create your repository
 
 1. Select **Use this template → Create a new repository**. Create your own repository, then clone it to your computer or open it in your development environment. Work in your copy.
