@@ -1,0 +1,18 @@
+{"task": "lcs", "a": "", "b": ""}
+{"task": "lcs", "a": "aabbaabb", "b": "abab"}
+{"task": "merge", "sizes": [10, 2, 10]}
+{"task": "merge", "sizes": [5, 1, 1, 5]}
+{"task": "tree", "n": 5, "weights": [10, 1, 1, 10, 1], "edges": [[0, 1], [1, 2], [2, 3], [3, 4]]}
+{"task": "tree", "n": 4, "weights": [1000000000, -1000000000, 1000000000, 1000000000], "edges": [[0, 1], [1, 2], [1, 3]]}
+{"task": "naive", "text": "a!B a!B a!B", "pattern": "a!B"}
+{"task": "kmp", "text": "a!B a!B a!B", "pattern": "a!B"}
+{"task": "rk", "text": "a!B a!B a!B", "pattern": "a!B"}
+{"task": "naive", "text": "ababababa", "pattern": "ababa"}
+{"task": "kmp", "text": "ababababa", "pattern": "ababa"}
+{"task": "rk", "text": "ababababa", "pattern": "ababa"}
+{"task": "rk", "text": "abdj_bcek_ab", "pattern": "ab"}
+{"task": "rk", "text": "~!ab", "pattern": "ab"}
+{"task": "suffix", "text": "abcd"}
+{"task": "suffix", "text": "mississippi"}
+{"task": "aho", "patterns": ["a", "ab", "bab", "bc", "bca", "c", "caa"], "texts": ["abccab", "", "abccab"]}
+{"task": "aho", "patterns": ["aba", "ba", "aba"], "texts": ["ababa", "baba"]}
